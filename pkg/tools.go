@@ -6,5 +6,6 @@
 package helm
 
 import (
+	_ "github.com/shurcooL/httpfs/vfsutil"
 	_ "k8s.io/code-generator"
 )
